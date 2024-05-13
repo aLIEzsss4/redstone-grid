@@ -1,0 +1,15 @@
+---
+kind: Bag
+spec:
+  location: [2, -5, 3]
+  items:
+    - name: Door Unlockinator 3000
+      quantity: 1
+
+---
+kind: Bag
+spec:
+  location: [0, -5, 5]
+  items:
+    - name: Squisher
+      quantity: 1

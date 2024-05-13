@@ -1,0 +1,13 @@
+---
+kind: Building
+spec:
+  name: Mr. Squishy
+  location: [ 2,-4,2 ]
+  facingDirection: LEFT
+
+---
+kind: Building
+spec:
+  name: Squishy Gate
+  location: [0,-4,4]
+  facingDirection: RIGHT
