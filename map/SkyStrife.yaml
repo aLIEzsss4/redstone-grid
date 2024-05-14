@@ -1,0 +1,17 @@
+---
+kind: BuildingKind
+spec:
+  category: billboard
+  name: SkyStrife
+  description: Sky Strife is an onchain RTS game built on the MUD framework.
+  model: monitor
+  plugin:
+    file: ./SkyStrife.js
+    alwaysActive: true
+  materials:
+  - name: Red Goo
+    quantity: 100
+  - name: Green Goo
+    quantity: 100
+  - name: Blue Goo
+    quantity: 100

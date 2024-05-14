@@ -408,6 +408,13 @@ spec:
   location: [ 1, 0, -1 ]
 
 ---
+kind: Building
+spec:
+  name: Disco Billboard
+  location: [ 1, 0, -1 ]
+  facingDirection: LEFT
+
+---
 kind: Tile
 spec:
   biome: DISCOVERED
@@ -473,25 +480,12 @@ spec:
 kind: Tile
 spec:
   biome: DISCOVERED
-  location: [ 2, 0, -2 ]
-
----
-kind: Building
-spec:
-  name: Disco Billboard
-  location: [ 2, 0, -2 ]
-  facingDirection: RIGHT
-
----
-kind: Tile
-spec:
-  biome: DISCOVERED
   location: [ -15, 0, 15 ]
 
 ---
 kind: Building
 spec:
-  name: Disco Billboard
+  name: SkyStrife
   location: [ -15, 0, 15 ]
   facingDirection: RIGHT
 
@@ -598,23 +592,35 @@ spec:
 kind: Tile
 spec:
   biome: DISCOVERED
-  location: [ 3, 0, -3 ]
+  location: [ 1, 1, -2 ]
 
 ---
 kind: Building
 spec:
   name: Squishy Gate
-  location: [ 3, 0, -3 ]
-  facingDirection: RIGHT
+  location: [ 1, 1, -2 ]
+  facingDirection: LEFT
 
 ---
 kind: Tile
 spec:
   biome: DISCOVERED
-  location: [ 3, 1, -4 ]
+  location: [ 1, 2, -3 ]
 
 ---
 kind: Tile
 spec:
   biome: DISCOVERED
-  location: [ 3, 2, -5 ]
+  location: [ 1, 3, -4 ]
+
+---
+kind: Tile
+spec:
+  biome: DISCOVERED
+  location: [ 1, 4, -5 ]
+
+---
+kind: Tile
+spec:
+  biome: DISCOVERED
+  location: [ -19, 4, 15 ]

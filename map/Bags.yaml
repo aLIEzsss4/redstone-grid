@@ -1,0 +1,15 @@
+---
+kind: Bag
+spec:
+  location: [-6, -3, 9]
+  items:
+    - name: Door
+      quantity: 1
+
+---
+kind: Bag
+spec:
+  location: [ -17, 11, 6]
+  items:
+    - name: Squisher
+      quantity: 1

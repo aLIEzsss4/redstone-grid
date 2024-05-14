@@ -1,14 +1,14 @@
 import ds from 'downstream';
 
 const images = [
-'https://assets.downstream.game/examples/disco-beaver-0.jpeg',
-'https://assets.downstream.game/examples/disco-beaver-1.jpeg',
-'https://assets.downstream.game/examples/disco-beaver-2.jpeg',
-'https://assets.downstream.game/examples/disco-beaver-3.jpeg',
-'https://assets.downstream.game/examples/disco-beaver-4.jpeg',
-'https://assets.downstream.game/examples/disco-beaver-5.jpeg',
-'https://assets.downstream.game/examples/disco-beaver-6.jpeg',
-'https://assets.downstream.game/examples/disco-beaver-7.jpeg',
+    'https://assets.downstream.game/examples/disco-beaver-0.jpeg',
+    'https://assets.downstream.game/examples/disco-beaver-1.jpeg',
+    'https://assets.downstream.game/examples/disco-beaver-2.jpeg',
+    'https://assets.downstream.game/examples/disco-beaver-3.jpeg',
+    'https://assets.downstream.game/examples/disco-beaver-4.jpeg',
+    'https://assets.downstream.game/examples/disco-beaver-5.jpeg',
+    'https://assets.downstream.game/examples/disco-beaver-6.jpeg',
+    'https://assets.downstream.game/examples/disco-beaver-7.jpeg',
 ];
 
 // Random initial image
@@ -23,16 +23,16 @@ export default async function update(state) {
         (b) => b.kind?.name?.value == "Disco Billboard",
     );
 
-    if (!discoBillboard){
+    if (!discoBillboard) {
         return;
     }
 
     const map = [
         {
-        type: "building",
-        key: "image",
-        id: `${discoBillboard.id}`,
-        value: images[selectedImg],
+            type: "building",
+            key: "image",
+            id: `${discoBillboard.id}`,
+            value: images[selectedImg],
         },
     ];
 
